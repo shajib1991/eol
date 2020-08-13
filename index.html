@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expression of Love</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body id= "body">
+    <div id="mainarea">
+        <div class="heading">
+            <h1>6 Years Celebration of Togetherness - "Love You Shona"</h1>
+        </div>
+        <div class="quote d-flex justify-content-center">
+            <h3 class="text-center">I swear I couldn’t love you more than I do right now, and yet I know I will tomorrow.</h3>
+        </div>
+        <div class="ask d-flex justify-content-center">
+            <h3 class="text-center"> Will You Marry Me? </h3>
+        </div>
+        <div class="button d-flex justify-content-center">
+            <button style="margin:5px;" id="yes" class="yes">Yes</button>
+            <button style="margin:5px;" id="no" class="no">No</button>
+        </div>
+    </div>
+    <div id="yesarea">
+            <div class="heading">
+                <h1> ইয়াহু আমি জানতাম আমার সোনাটা রাজী হবে, উম্মাহ লক্ষী বউ</h1>
+            </div>
+            <div class="body">
+                <img src="images/yes.gif" class="rounded mx-auto d-block" alt="">
+            </div>
+            <div class="heading">
+                <h1> ও বউনি ফুল শয্যায় যেতে কি এখনি লাইট অফ করে দিব? </h1>
+            </div>
+            <div class="button d-flex justify-content-center">
+                <button style="margin:5px;" id="yes1" class="yes">হ্যাঁ বাবু</button>
+                <button style="margin:5px;" id="no1" class="no">নাহ সোনা</button>
+            </div>
+    </div>
+    <div id="yes-area1">
+        <div class="heading">
+            <h1> উলে বাবুতা! বতি নিভিয়ে কি দেখবা সোনা? হুম!! বাতি জালানো থাকলে বুঝি লজ্জা কলে? </h1>
+        </div>
+        <div class="body">
+            <img src="images/yes1.jpg" class="rounded mx-auto d-block" alt="">
+        </div>
+
+    </div>
+    <div id="no-area1">
+        <div class="heading">
+            <h1> বাতি না নিভিয়েই দেখবা সোনা!! উফ কি হট তুমি, দুষ্টু বউনিটা, যাহ এভাবে তাকাও কেন!? </h1>
+        </div>
+        <div class="body">
+            <img src="images/no1.gif" class="rounded mx-auto d-block" alt="">
+        </div>
+
+    </div>
+    <div id="noarea">
+        <div class="heading">
+            <h1> কি ভাবছ?! না বললেই চলে যাব? একদমই না, কোলে তুলে নিয়ে দৌড় দিব, হুহ</h1>
+        </div>
+        <div class="body">
+            <img id= "special" src="images/no.gif" class="rounded mx-auto d-block" alt="">
+        </div>
+
+        <div class="heading">
+            <h1> পালানোর চেষ্টা করবা দুষ্টুটা? </h1>
+        </div>
+        <div class="button d-flex justify-content-center">
+            <button style="margin:5px;" id="yes2" class="yes"> অবশ্যই পালাব </button>
+            <button style="margin:5px;" id="no2" class="no">নাহ দেখি কি কর? </button>
+        </div>
+
+    </div>
+    <div id="area-2">
+        <div class="heading">
+            <h1> পালানোর চেষ্টা করলে এভাবে মেরে একদম লাল করে দিব, হুম মনে থাকে যেন </h1>
+        </div>
+        <div class="body">
+            <img src="images/yes2.gif" class="rounded mx-auto d-block" alt="">
+        </div>
+    </div>
+
+    <div id="no-area2">
+        <div class="heading">
+            <h1> ইশ!! সাহস কত, একদম এভাবে ভিজিয়ে দিব, তখন বুঝবা কেমন লাগে! </h1>
+        </div>
+        <div class="body">
+            <img src="images/no2.gif" class="rounded mx-auto d-block" alt="">
+        </div>
+    </div>
+
+    </div>
+    <script>
+        // yes button event handler
+            const yesBtn = document.getElementById("yes");
+            yesBtn.addEventListener("click", function(){
+            const mainArea = document.getElementById("mainarea");
+            mainArea.style.display = "none";
+            const yesArea = document.getElementById("yesarea");
+            yesArea.style.display = "block";
+        })
+        // no button event handler
+            const noBtn = document.getElementById("no");
+            noBtn.addEventListener("click", function(){
+            const mainArea = document.getElementById("mainarea");
+            mainArea.style.display = "none";
+            const noArea = document.getElementById("noarea");
+            noArea.style.display = "block";
+        })
+
+         // yes1 button event handler
+            const yes1Btn = document.getElementById("yes1");
+            yes1Btn.addEventListener("click", function(){
+            const yesArea = document.getElementById("yesarea");
+            yesArea.style.display = "none";
+            const yesArea1 = document.getElementById("yes-area1");
+            yesArea1.style.display = "block";
+        })
+          // no1 button event handler
+            const no1Btn = document.getElementById("no1");
+            no1Btn.addEventListener("click", function(){
+            const noArea = document.getElementById("yesarea");
+            noArea.style.display = "none";
+            const noArea1 = document.getElementById("no-area1");
+            noArea1.style.display = "block";
+        })
+
+         // yes2 button event handler
+            const yes2Btn = document.getElementById("yes2");
+            yes2Btn.addEventListener("click", function(){
+            const lastArea = document.getElementById("noarea");
+            lastArea.style.display = "none";
+            const yesArea2 = document.getElementById("area-2");
+            yesArea2.style.display = "block";
+        })
+        //  no2 button event handler
+            const no2Btn = document.getElementById("no2");
+            no2Btn.addEventListener("click", function(){
+            const noArea1 = document.getElementById("noarea");
+            noArea1.style.display = "none";
+            const noArea2 = document.getElementById("no-area2");
+            noArea2.style.display = "block";
+        })
+
+       
+    </script>
+</body>
+</html>

@@ -1,0 +1,83 @@
+#body{
+    background-color: whitesmoke;
+}
+.heading{
+    text-align: center;
+    font-family: pacifico;
+    text-decoration: dotted;
+    font-size: xx-large;
+    padding: 50px;
+    text-shadow: blueviolet;
+    font-weight: 1500;
+    color: deeppink;
+}
+
+.quote{
+    border: 2px solid pink;
+    width: 700px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: deeppink;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.ask{
+    border: 2px solid pink;
+    width: 400px;
+    height: 100px;
+    padding: 20px 20px 20px 20px;
+    margin-bottom: 10px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color:tomato;
+    color: white;
+    font-family: Trebuchet MS;
+    border-radius: 20px;
+    font-weight: bold;
+}
+.button{
+    margin-top: 20px;
+}
+.yes{
+    background-image: linear-gradient(to bottom, #3af080 0%, green 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+.no{
+    background-image: linear-gradient(to bottom, #f33d4c 0%, red 100%);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 9px 25px;
+    cursor: pointer;
+}
+#yesarea {
+    display: none;
+}
+#noarea {
+    display: none;
+}
+#yes-area1{
+    display: none;
+}
+#no-area1{
+    display: none;
+}
+#area-2{
+    display: none;
+}
+#no-area2{
+    display: none;
+}
+#special{
+    height: 250px;
+
+}
